@@ -30,6 +30,6 @@
 ```
 python3
 
-from librealsense2 import librealsense2 as rs
+from pylibrealsense2 import pylibrealsense2 as rs  # or import pylibrealsense2 as rs
 list(rs.context().devices)
 ```
